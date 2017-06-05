@@ -258,3 +258,39 @@ UPDATE 1
 ## Extension
 
 1. Research how to delete multiple entries from your table in a single command.
+
+DELETE 2
+ id |                title                | year | show_time 
+----+-------------------------------------+------+-----------
+  3 | Iron Man 2                          | 2010 | 17:10
+  4 | Thor                                | 2011 | 19:30
+  5 | Captain America: The First Avenger  | 2011 | 18:50
+  6 | Avengers Assemble                   | 2012 | 19:05
+  7 | Iron Man 3                          | 2013 | 22:10
+  8 | Thor: The Dark World                | 2013 | 23:30
+  9 | Batman Begins                       | 2005 | 23:30
+ 10 | Captain America: The Winter Soldier | 2014 | 14:55
+ 11 | Guardians of the Galaxy             | 2014 | 19:05
+ 12 | Avengers: Age of Ultron             | 2015 | 14:35
+ 13 | Ant-Man                             | 2015 | 19:15
+ 14 | Captain America: Civil War          | 2016 | 12:35
+ 15 | Doctor Strange                      | 2016 | 21:30
+ 16 | Guardians of the Galaxy 2           | 2017 | 00:00
+(14 rows)
+
+DELETE 4
+ id |                title                | year | show_time 
+----+-------------------------------------+------+-----------
+  1 | Iron Man                            | 2008 | 17:55
+  2 | The Incredible Hulk                 | 2008 | 17:55
+  5 | Captain America: The First Avenger  | 2011 | 18:50
+  6 | Avengers Assemble                   | 2012 | 19:05
+  7 | Iron Man 3                          | 2013 | 22:10
+  8 | Thor: The Dark World                | 2013 | 23:30
+  9 | Batman Begins                       | 2005 | 23:30
+ 10 | Captain America: The Winter Soldier | 2014 | 14:55
+ 12 | Avengers: Age of Ultron             | 2015 | 14:35
+ 13 | Ant-Man                             | 2015 | 19:15
+ 14 | Captain America: Civil War          | 2016 | 12:35
+ 16 | Guardians of the Galaxy 2           | 2017 | 00:00
+(12 rows)

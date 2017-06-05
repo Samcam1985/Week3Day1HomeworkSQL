@@ -77,7 +77,11 @@ INSERT INTO movies (title, year, show_time) VALUES ('Guardians of the Galaxy 2',
 
 -- SELECT * FROM people;
 
-UPDATE movies SET show_time = '21:30' 
-WHERE title = 'Guardians of the Galaxy';
+-- UPDATE movies SET show_time = '21:30' 
+-- WHERE title = 'Guardians of the Galaxy';
+
+-- DELETE FROM movies WHERE id in (1, 2);
+
+DELETE FROM movies WHERE title in ('Guardians of the Galaxy', 'Doctor Strange', 'Thor', 'Iron Man 2');
 
 SELECT * FROM movies;
